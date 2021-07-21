@@ -218,3 +218,330 @@ Processing by AppointmentsController#index as */*
 Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 1395)
 
 
+Started GET "/appointments/1" for ::1 at 2021-07-20 17:04:44 -0400
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAppointment Load (0.5ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE (1) LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `show'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms | Allocations: 851)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 17:09:53 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.2ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.2ms | Allocations: 1414)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 17:14:18 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.1ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 17:14:34 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.2ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.2ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 17:14:39 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.2ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 17:14:56 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.2ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.2ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 17:16:01 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.1ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 17:16:15 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.1ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 17:16:26 -0400
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.2ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 20ms (Views: 16.9ms | ActiveRecord: 0.9ms | Allocations: 4891)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 17:19:57 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.1ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.1ms | Allocations: 1412)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 17:20:11 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.1ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.1ms | Allocations: 1412)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 19:17:28 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.2ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.2ms | Allocations: 1423)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 19:17:38 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.1ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 19:17:45 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.1ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 19:17:48 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.2ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.2ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 19:17:50 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.2ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.2ms | Allocations: 1412)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 19:17:59 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.1ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.1ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 19:18:10 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.2ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 19:18:53 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.1ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.1ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 19:18:54 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.1ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.1ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 19:25:05 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.1ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.1ms | Allocations: 1411)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 19:26:37 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.1ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.1ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 19:29:02 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.1ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.1ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 19:29:03 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.2ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.2ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 19:30:04 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.1ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.1ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 19:30:37 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.1ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.1ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 19:34:38 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.1ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.1ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 19:35:46 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.2ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.2ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 19:35:47 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.2ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 19:36:14 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.2ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.2ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 19:40:32 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.3ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms | Allocations: 1396)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 19:41:21 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.1ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 19:41:26 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.2ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 19:41:42 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.3ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 19:42:15 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.1ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 20:10:19 -0400
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.2ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 1407)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 20:10:48 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#index as */*
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 434)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 20:10:56 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.3ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 0.8ms | Allocations: 4625)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 20:11:09 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.2ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/application_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 0.8ms | Allocations: 4612)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 20:11:55 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.2ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/appointments_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.8ms | Allocations: 4576)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 20:11:56 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.2ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/appointments_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms | Allocations: 1395)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 20:11:59 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.2ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/appointments_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 0.7ms | Allocations: 4611)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 20:12:08 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#index as */*
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 429)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 20:12:13 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.2ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/appointments_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 5.5ms | ActiveRecord: 0.8ms | Allocations: 4573)
+
+
+Started GET "/appointments" for ::1 at 2021-07-20 20:12:14 -0400
+Processing by AppointmentsController#index as */*
+  [1m[36mAppointment Load (0.2ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/controllers/appointments_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms | Allocations: 1395)
+
+
